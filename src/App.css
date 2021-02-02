@@ -1,0 +1,114 @@
+html{
+    background-color: rgb(27, 26, 36);
+}
+.topnav {
+    /* padding-left: 160px; */
+    background-color:  rgb(27, 26, 36);
+    overflow: hidden;
+    
+}
+.topnav a.active {
+    background-color: orange;
+    color: rgb(27, 26, 36)
+}
+.topnav a:hover{
+    color: rgb(0, 0, 0);;
+    background-color: orange
+}
+.topnav a {
+    float: left;
+    color: #ffffff;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 25px;
+  }
+.sidenav {
+    margin-top: 15px;
+    overflow-y: scroll;
+    border-left-width: 1px;
+    border-color: white;
+    height: 100%; 
+    width: 200px;
+    position: absolute;
+    padding-top: 10px;
+    background-color: rgb(27, 26, 36);
+    /* overflow-x: hidden; */
+}
+  
+.sidenav a {
+    padding-top: 50px;
+    padding: 6px 8px 6px 16px;
+    text-decoration: none;
+    font-size: 18px;
+    justify-content: center;
+    color: #f8f8f8;
+    display: block;
+    font-weight: 600;
+}
+.sidenav a:focus{
+    color: rgb(27, 26, 36);
+    background-color: orange;
+}
+.sidenav a:hover{
+    color: rgb(27, 26, 36);
+    background-color: orange;
+}
+
+.errorPage{
+    padding-left: 2%;
+    font-style: italic;
+}
+.mainTitle{
+    float: left;
+    font-weight: 700;
+    padding-right: 25px;
+    padding-left: 14px;
+    color: orange;
+    background-color: rgb(27, 26, 36);
+}
+
+.content{
+    margin-top: 25px;
+    padding-right: 100px;
+    padding-bottom: 40px;
+    padding-left: 60px;
+    align-content: flex-end;
+    margin-left: 210px;
+    margin-right:30px;
+    border-style: ridge;
+    margin-bottom: 100px;
+}
+.name {
+    font-size: 25px;
+    font-family: monospace;
+    /* font-weight: lighter; */
+    color: rgb(209, 209, 209);
+}
+h4,li{
+    font-size: 20px;
+    font-family: monospace;
+    font-weight: lighter;
+    color: rgb(209, 209, 209);
+}
+Link,a{
+    color: orange;
+}
+h1{
+    color: white;
+    font-style: italic;
+    border-top-width: 0px;
+    border-bottom-width: 3px;
+    border-right-width: 0px;
+    border-left-width: 0px;
+    border-style: double;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    margin-right: 10px;
+}
+.IntroDiag{
+    color: white;
+    font-size: 30px;
+    margin-left: 250px;
+    margin-top: 50px;
+}
